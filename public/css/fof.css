@@ -1,0 +1,25 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #24243a;
+    color: #c7c7d4;
+    margin: 0;
+    padding: 20px;
+}
+
+.not-found a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: normal;
+    background-color: #45455e;
+    color: #dedee3;
+}
+
+.not-found a:hover {
+    background-color: #5a5a6e;
+}

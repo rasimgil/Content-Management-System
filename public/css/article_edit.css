@@ -1,0 +1,80 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #24243a;
+    color: #c7c7d4;
+    margin: 0;
+    padding: 20px;
+}
+
+.edit-article-form {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #3a3a4e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.edit-article-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e1e1ea;
+}
+
+.edit-article-form input[type="text"],
+.edit-article-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #2d2d3d;
+    color: #e1e1ea;
+    border: 1px solid #2d2d3d;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.edit-article-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.actions {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.actions button,
+.actions a {
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.actions button {
+    background-color: #45455e;
+    color: #dedee3;
+    border: none;
+    font-size: 22px;
+}
+
+.actions a.back-link {
+    background-color: #45455e;
+    color: #dedee3;
+}
+
+.actions button:hover {
+    background-color: #5a5a6e;
+}
+
+.actions a.back-link:hover {
+    background-color: #5a5a6e;
+}

@@ -1,0 +1,149 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #2d2d3d;
+    color: #c7c7d4;
+    padding-bottom: 40px;
+}
+
+#articlesList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.article-tab {
+    background-color: #3a3a4e;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.article-tab h3 {
+    color: #e1e1ea;
+    margin: 0;
+}
+
+.actions {
+    text-align: end;
+}
+
+.actions a {
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    color: #e1e1ea;
+}
+
+.actions a:hover {
+    font-size: 26px;
+}
+
+#header-bar {
+    background-color: #24243a;
+    color: #dedee3;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#paginationControls {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#paginationControls button {
+    color: #dedee3;
+    background-color: #45455e;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#paginationControls button:hover {
+    background-color: #5a5a6e;
+}
+
+#create-article-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#create-article {
+    background-color: #45455e;
+    border: none;
+    border-radius: 5px;
+    color: #dedee3;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#create-article:hover {
+    background-color: #5a5a6e;
+}
+
+#create-article-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #24243a;
+    color: #dedee3;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+    width: auto;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+#create-article-dialog form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#create-article-dialog label,
+#create-article-dialog input,
+#create-article-dialog button {
+    margin-bottom: 15px;
+}
+
+#create-article-dialog input {
+    padding: 10px;
+    background-color: #343450;
+    color: #c7c7d4;
+}
+
+#create-article-dialog button,
+#cancel-create-article,
+#create-article-btn {
+    background-color: #45455e;
+    color: #dedee3;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#create-article-dialog button:hover,
+#cancel-create-article:hover,
+#create-article-btn:hover {
+    background-color: #5a5a6e;
+}

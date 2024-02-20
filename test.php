@@ -2,10 +2,10 @@
 require_once 'src/Model.php';
 
 $model = new Model([
-    'server'   => 'localhost',
-    'login'    => '93947770',
-    'password' => '4IfnGwjq',
-    'database' => 'stud_93947770',
+    'server'   => '',
+    'login'    => '',
+    'password' => '',
+    'database' => '',
 ]);
 
 echo "connected ";
